@@ -2,12 +2,36 @@ body{
     background-color: black;
 }
 .center-box{
-    background-color: antiquewhite;
+    background-color: gray;
     position: relative;
     width: 80%;
-    height: 600px;
+    height: 630px;
     margin-left: 50%;
     margin-top: 50px;
     transform: translateX(-50%);
-    border-radius: 8%;
+
+}
+.tela{
+    background-color: aliceblue;
+    position: relative;
+    width: 90%;
+    height: 120px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    top: 30px;
+
+    color: black;
+    font-size: 50px;
+    font-style: normal;
+}
+
+.teclado{
+    background-color: rgb(61, 66, 66);
+    width: 90%;
+    height: 400px;
+    position: relative;
+    margin:auto;
+    top: 60px;
+    border-radius: 20px;
 }
