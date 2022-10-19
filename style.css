@@ -13,17 +13,22 @@ body{
 }
 .tela{
     background-color: aliceblue;
+    border-radius: 20px;
+    color:black;
+    font-size: 50px;
+
     position: relative;
-    width: 90%;
-    height: 120px;
     margin-left: 50%;
     transform: translateX(-50%);
-    border-radius: 20px;
     top: 30px;
+    
+    width: 90%;
+    height: 120px;
 
-    color: black;
-    font-size: 50px;
-    font-style: normal;
+    /*alinhando*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .teclado{
