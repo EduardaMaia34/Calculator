@@ -23,7 +23,7 @@ body{
     top: 30px;
     
     width: 90%;
-    height: 120px;
+    height: 100px;
 
     /*alinhando*/
     display:flex;
@@ -34,18 +34,19 @@ body{
     background-color: rgb(55, 55, 55);
     width: 85%;
     height: 400px;
+    border-radius: 15px;
     
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 60px;
+    margin-top: 80px;
 
     display: flex;
     flex-direction: row;
 }
 .numeros{
-    background-color: blue;
     width: 80%;
     height: 100%;
+    margin-left: 15px;
 
     display:flex;
     flex-direction: row;
@@ -58,9 +59,12 @@ body{
     width: 15%;
     height:20%;
     margin-right: 5%;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 20px;
 }
 .operadores{
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
 
@@ -73,4 +77,8 @@ body{
     background-color: aliceblue;
     height: 15%;
     width: 80%;
+    color: black;
+    font-size: 50px;
+    text-align: center; 
+    border-radius: 20px;
 }
