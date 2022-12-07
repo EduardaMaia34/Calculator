@@ -49,6 +49,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /*js*/
+    cursor: pointer;
 }
 .teclado{
     background-color: rgb(55, 55, 55);
