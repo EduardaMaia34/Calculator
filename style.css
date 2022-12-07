@@ -14,8 +14,6 @@ body{
 .tela{
     background-color: aliceblue;
     border-radius: 20px;
-    color:black;
-    font-size: 50px;
 
     position: relative;
     margin-left: 50%;
@@ -25,9 +23,31 @@ body{
     width: 90%;
     height: 100px;
 
+    display: flex;
+    flex-direction: row;
+}
+.tela .txt{
+    color:black;
+    font-size: 50px;
+    height: 100%;
+    width:80%;
+
     /*alinhando*/
-    display:flex;
-    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.reset{
+    background-color: chocolate;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color:black;
+    font-size: 50px;
+    height: 100%;
+    width: 20%;
+
+    /*alinhando*/
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 .teclado{
