@@ -75,8 +75,8 @@ document.getElementById("/").onclick = function() {
 
 document.getElementById("=").onclick = function() {
     var resposta;
-    v1 = parseInt(v1);
-    v2 = parseInt(v2);
+    v1 = parseFloat(v1);
+    v2 = parseFloat(v2);
 
     if (sinal === 1){
         resposta = v1 + v2;
@@ -89,6 +89,10 @@ document.getElementById("=").onclick = function() {
     }
 
     calc.innerHTML = resposta;
+
+    v1 = resposta;
+    v2 = "";
+    sinalBoolean = false;
 }
 
 
